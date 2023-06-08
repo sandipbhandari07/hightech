@@ -1,0 +1,11 @@
+2021-12-26T04:22:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in E:\Programs\XAMPP\htdocs\electro\wp-content\themes\big-store\inc\woocommerce\woo-function.php:29
+Stack trace:
+#0 E:\Programs\XAMPP\htdocs\electro\wp-content\themes\big-store\inc\woocommerce\woo-function.php(39): big_store_cart_total_item()
+#1 E:\Programs\XAMPP\htdocs\electro\wp-includes\class-wp-hook.php(303): big_store_menu_cart_view('')
+#2 E:\Programs\XAMPP\htdocs\electro\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 E:\Programs\XAMPP\htdocs\electro\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 E:\Programs\XAMPP\htdocs\electro\wp-content\themes\big-store\inc\header-function.php(765): do_action('open_cart_count')
+#5 E:\Programs\XAMPP\htdocs\electro\wp-includes\class-wp-hook.php(303): bigstore_mobile_navbar('')
+#6 E:\Programs\XAMPP\htdocs\electro\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 E:\Programs\XAMPP\htdocs\electro\wp-includes\plugin.php(470): WP_Hook->do_ in E:\Programs\XAMPP\htdocs\electro\wp-content\themes\big-store\inc\woocommerce\woo-function.php on line 29
+
